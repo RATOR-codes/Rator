@@ -14,10 +14,7 @@ Rator consists of five main phases: AST generation and splitting, Tree encoding,
 5.Localization: this phase is to locate similar code blocks in the clone pairs.
 
 # Project Structure
-Rator 
-
+>Rator 
 >|-- get_dofcode.py     	// implement the first two phases:  AST Generation and Splitting, Tree Encoding
-
 >|-- get_similarity.py     // implement the Feature Extraction phase and Fine-grained detection
-
 >|-- classification.py   // implement the Classification phase  
