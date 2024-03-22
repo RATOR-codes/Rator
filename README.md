@@ -17,6 +17,21 @@ Rator consists of five main phases: AST generation and splitting, Tree encoding,
 ```
 Rator 
 |-- get_dofcode.py     	// implement the first two phases:  AST Generation and Splitting, Tree Encoding
-|-- get_similarity.py     // implement the Feature Extraction phase and Fine-grained detection
+|-- get_similarity.py   // implement the Feature Extraction phase and Fine-grained detection
 |-- classification.py   // implement the Classification phase  
 ```
+## Step1: Get degrees of freedom matrices
+get_dofcode.py: The input is a folder containing the source code files and the output is the degrees of freedom matrices of source codes.
+```
+python get_dofcode.py
+```
+## Step2: Get similarity scores between two DOF matrice
+```
+python get_similarity.py
+```
+## Step3: Classification
+classification.py: The file is used to train the clone detector and predict the clones using each of the six machine learning algorithms.
+```
+python classification.py
+```
+
