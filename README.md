@@ -20,3 +20,7 @@ Rator
 |-- get_similarity.py     // implement the Feature Extraction phase and Fine-grained detection
 |-- classification.py   // implement the Classification phase  
 '''
+```javascript
+// An highlighted block
+var foo = 'bar';
+```
