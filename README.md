@@ -25,7 +25,7 @@ get_dofcode.py: The input is a folder containing the source code files and the o
 ```
 python get_dofcode.py
 ```
-## Step2: Get similarity scores between two DOF matrice
+## Step2: Get similarity scores between two DOF matrices
 ```
 python get_similarity.py
 ```
