@@ -9,9 +9,9 @@ Rator consists of five main phases: AST generation and splitting, Tree encoding,
 
 3. Feature Extraction: this phase is to construct a subtree similarity matrix by calculating the similarity between DOF matrices.
 
-4. Clone Detection: this phase is to train the clone detector using the subtree similarity matrix and determine whether two code fragments are semantically similar.
+4. Classification: this phase is to train the clone detector using the subtree similarity matrix and determine whether two code fragments are semantically similar.
 
-5. Localization: this phase is to locate similar code blocks in the clone pairs.
+5. Fine-grained Detection: this phase is to locate similar code blocks in the clone pairs.
 
 # Project Structure
 ```
@@ -26,6 +26,7 @@ get_dofcode.py: The input is a folder containing the source code files and the o
 python get_dofcode.py
 ```
 ## Step2: Get similarity scores between two DOF matrices
+get_similarity.py: The file is used to calculate the similarity scores between two DOF matrices. The similarity scores are used as input to the following machine learning algorithm on the one hand and for fine-grained clone analysis on the other hand.
 ```
 python get_similarity.py
 ```
