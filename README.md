@@ -3,9 +3,9 @@
 # Project Structure
 ```
 Rator 
-|-- get_dofcode.py     	// implement the first two phases:  AST Generation and Splitting, Tree Encoding
-|-- get_similarity.py   // implement the Feature Extraction phase and Fine-grained detection
-|-- classification.py   // implement the Classification phase  
+|-- get_dofcode.py
+|-- get_similarity.py
+|-- classification.py
 ```
 ## Step1: Get degrees of freedom matrices
 ```
@@ -19,4 +19,3 @@ python get_similarity.py
 ```
 python classification.py
 ```
-
